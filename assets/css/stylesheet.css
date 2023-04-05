@@ -3,6 +3,37 @@
     padding: 0;
 }
 
-body{
+.rec-dark-orange{
+    width: 255px;
+    height: 100px;
+    display: inline-block;
+    background-color: #E6955B;
+}
 
+.social-network{
+    width: 77px;
+    margin-left: 51px;
+}
+
+.rec-light-orange{
+    background-color: #E8D7C2;
+    width: 255px;
+    height: calc(100% - 100px);
+    display: block;
+}
+
+.top-menu{
+    display: inline-block;
+    width: calc(100% - 255px);
+    height: 100px;
+    background-color: #E8D7C2;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
